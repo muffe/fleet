@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" role="img" aria-labelledby="title description">
+  <title id="title">Fleet coordinates agent configuration through T3 Code</title>
+  <desc id="description">Shared instructions and pinned skills feed one T3 Code thread. Parallel workers preview or apply the same reviewed revision on a server, desktop, and laptop. Each machine keeps local configuration for Claude Code and Codex.</desc>
+  <style>
+    .panel { fill: #f6f8fa; stroke: #d0d7de; }
+    .hub { fill: #ecfdf5; stroke: #059669; }
+    .text { fill: #1f2328; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .muted { fill: #59636e; }
+    .line { fill: none; stroke: #059669; stroke-width: 2; }
+    .pill { fill: #eaeef2; }
+    @media (prefers-color-scheme: dark) {
+      .panel { fill: #161b22; stroke: #3d444d; }
+      .hub { fill: #102b25; stroke: #34d399; }
+      .text { fill: #f0f6fc; }
+      .muted { fill: #a6b0bd; }
+      .line { stroke: #34d399; }
+      .pill { fill: #262e38; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#059669"/>
+    </marker>
+  </defs>
+  <rect class="panel" x="26" y="18" width="280" height="80" rx="14"/>
+  <text class="text" x="46" y="50" font-size="21" font-weight="600">Shared configuration</text>
+  <text class="text muted" x="46" y="78" font-size="17">Instructions + pinned skills</text>
+  <path class="line" d="M306 58 H358" marker-end="url(#arrow)"/>
+  <rect class="hub" x="360" y="18" width="280" height="80" rx="14"/>
+  <text class="text" x="500" y="50" text-anchor="middle" font-size="24" font-weight="650">T3 Code</text>
+  <text class="text muted" x="500" y="78" text-anchor="middle" font-size="17">One coordinating thread</text>
+  <text class="text muted" x="500" y="133" text-anchor="middle" font-size="18">Parallel workers, one reviewed revision</text>
+  <path class="line" d="M500 98 V110 M170 150 H830 M500 142 V186 M170 150 V186 M830 150 V186"/>
+  <path class="line" d="M500 150 V186" marker-end="url(#arrow)"/>
+  <path class="line" d="M170 150 V186" marker-end="url(#arrow)"/>
+  <path class="line" d="M830 150 V186" marker-end="url(#arrow)"/>
+  <rect class="panel" x="26" y="190" width="288" height="134" rx="14"/>
+  <rect class="panel" x="356" y="190" width="288" height="134" rx="14"/>
+  <rect class="panel" x="686" y="190" width="288" height="134" rx="14"/>
+  <g class="text" text-anchor="middle">
+    <text x="170" y="223" font-size="22" font-weight="600">Server</text>
+    <text x="500" y="223" font-size="22" font-weight="600">Desktop</text>
+    <text x="830" y="223" font-size="22" font-weight="600">Laptop</text>
+  </g>
+  <rect class="pill" x="48" y="241" width="244" height="33" rx="8"/>
+  <rect class="pill" x="378" y="241" width="244" height="33" rx="8"/>
+  <rect class="pill" x="708" y="241" width="244" height="33" rx="8"/>
+  <g class="text" font-size="17" text-anchor="middle">
+    <text x="170" y="263">Claude Code + Codex</text>
+    <text x="500" y="263">Claude Code + Codex</text>
+    <text x="830" y="263">Claude Code + Codex</text>
+  </g>
+  <g class="text muted" font-size="16" text-anchor="middle">
+    <text x="170" y="301">Local files, available offline</text>
+    <text x="500" y="301">Local files, available offline</text>
+    <text x="830" y="301">Local files, available offline</text>
+  </g>
+</svg>
