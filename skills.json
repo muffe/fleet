@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "baseline": "Reviewed skill selection, 2026-10-28",
+  "cli": {
+    "package": "skills",
+    "version": "1.7.0",
+    "minimumNodeVersion": "22.20.0"
+  },
+  "skills": [
+    {
+      "name": "ask-matt",
+      "source": "mattpocock/skills",
+      "commit": "954ee7fd7f1911b79bfa82589b4d35ab6c4b13b8",
+      "skillPath": "skills/engineering/ask-matt/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/954ee7fd7f1911b79bfa82589b4d35ab6c4b13b8/skills/engineering/ask-matt",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "chief-of-staff",
+      "source": "mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "skillPath": "skills/in-progress/chief-of-staff/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/in-progress/chief-of-staff",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "claude-handoff",
+      "source": "mattpocock/skills",
+      "commit": "4ec00d966d964d8dd8a67d4f4570e998791152db",
+      "skillPath": "skills/in-progress/claude-handoff/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/4ec00d966d964d8dd8a67d4f4570e998791152db/skills/in-progress/claude-handoff",
+      "agents": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "code-review",
+      "source": "mattpocock/skills",
+      "commit": "3da8c01116264675eeefbd6e9d59c734de9095cc",
+      "skillPath": "skills/engineering/code-review/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/3da8c01116264675eeefbd6e9d59c734de9095cc/skills/engineering/code-review",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "codebase-design",
+      "source": "mattpocock/skills",
+      "commit": "d80fa0f4ebe0c5714af0adf8670336065233ecc6",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/d80fa0f4ebe0c5714af0adf8670336065233ecc6/skills/engineering/codebase-design",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "diagnosing-bugs",
+      "source": "mattpocock/skills",
+      "commit": "f3fc5632f401156837ee3872f14fe33ccf1024ea",
+      "skillPath": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/f3fc5632f401156837ee3872f14fe33ccf1024ea/skills/engineering/diagnosing-bugs",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "domain-modeling",
+      "source": "mattpocock/skills",
+      "commit": "d80fa0f4ebe0c5714af0adf8670336065233ecc6",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/d80fa0f4ebe0c5714af0adf8670336065233ecc6/skills/engineering/domain-modeling",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "emil-design-eng",
+      "source": "emilkowalski/skill",
+      "commit": "85e8e2363b713506e1d5b6e07a0eb2da66be1bc3",
+      "skillPath": "skills/emil-design-eng/SKILL.md",
+      "installUrl": "https://github.com/emilkowalski/skill/tree/85e8e2363b713506e1d5b6e07a0eb2da66be1bc3/skills/emil-design-eng",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "find-skills",
+      "source": "vercel-labs/skills",
+      "commit": "ceea0088e483744887186fb911841bf5449b8324",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "installUrl": "https://github.com/vercel-labs/skills/tree/ceea0088e483744887186fb911841bf5449b8324/skills/find-skills",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "git-guardrails-claude-code",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/misc/git-guardrails-claude-code/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/misc/git-guardrails-claude-code",
+      "agents": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "grill-me",
+      "source": "mattpocock/skills",
+      "commit": "fcf0071560d32913c9d4f820e0d7ca467c881619",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/fcf0071560d32913c9d4f820e0d7ca467c881619/skills/productivity/grill-me",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "grill-with-docs",
+      "source": "mattpocock/skills",
+      "commit": "447ca70872026d5b79d6073a546dac082117fed7",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/447ca70872026d5b79d6073a546dac082117fed7/skills/engineering/grill-with-docs",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "grilling",
+      "source": "mattpocock/skills",
+      "commit": "95249b0b49782349740fd9b8c6ce32b4e59e497a",
+      "skillPath": "skills/productivity/grilling/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/95249b0b49782349740fd9b8c6ce32b4e59e497a/skills/productivity/grilling",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "handoff",
+      "source": "mattpocock/skills",
+      "commit": "0f5e033ebc47b142f5ffa56a582ede6d9d9bada3",
+      "skillPath": "skills/productivity/handoff/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/0f5e033ebc47b142f5ffa56a582ede6d9d9bada3/skills/productivity/handoff",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "humanize",
+      "source": "aashaexo/soundshuman",
+      "commit": "a45cfbba9fde843d670e553a0aa98f6a23d7fb28",
+      "skillPath": "SKILL.md",
+      "installUrl": "https://github.com/aashaexo/soundshuman/tree/a45cfbba9fde843d670e553a0aa98f6a23d7fb28",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "humanizer-de",
+      "source": "marmbiz/humanizer-de",
+      "commit": "924831533ffd86716845a74c10b476f1d7d92ab7",
+      "skillPath": "SKILL.md",
+      "installUrl": "https://github.com/marmbiz/humanizer-de/tree/924831533ffd86716845a74c10b476f1d7d92ab7",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "impeccable",
+      "source": "pbakaus/impeccable",
+      "commit": "414603bf14c7a344edb466bb1f85690c77ce8b7d",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "installUrl": "https://github.com/pbakaus/impeccable/tree/414603bf14c7a344edb466bb1f85690c77ce8b7d/.agents/skills/impeccable",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "implement",
+      "source": "mattpocock/skills",
+      "commit": "6d6a5b9072f47ee7ba1d972d8ce0ee98b7ed4394",
+      "skillPath": "skills/engineering/implement/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/6d6a5b9072f47ee7ba1d972d8ce0ee98b7ed4394/skills/engineering/implement",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "implement-spec",
+      "source": "mattpocock/skills",
+      "commit": "c612defa9e5cf9372262d0279eb124993ba77b71",
+      "skillPath": "skills/engineering/implement-spec/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/c612defa9e5cf9372262d0279eb124993ba77b71/skills/engineering/implement-spec",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "source": "mattpocock/skills",
+      "commit": "d80fa0f4ebe0c5714af0adf8670336065233ecc6",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/d80fa0f4ebe0c5714af0adf8670336065233ecc6/skills/engineering/improve-codebase-architecture",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "loop-me",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/in-progress/loop-me/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/in-progress/loop-me",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "migrate-to-shoehorn",
+      "source": "mattpocock/skills",
+      "commit": "697d4ce9742da558fd1ba6697c8e9775e2e302dd",
+      "skillPath": "skills/misc/migrate-to-shoehorn/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/697d4ce9742da558fd1ba6697c8e9775e2e302dd/skills/misc/migrate-to-shoehorn",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "pr",
+      "source": "mattpocock/skills",
+      "commit": "e484a8095543718ced436b9b49a8160ed4554000",
+      "skillPath": "skills/engineering/pr/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/e484a8095543718ced436b9b49a8160ed4554000/skills/engineering/pr",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "prototype",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/engineering/prototype/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/engineering/prototype",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "research",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/engineering/research/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/engineering/research",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "retro",
+      "source": "mattpocock/skills",
+      "commit": "a7d038f6bf7f01b516408e95e2fb56e0b338fa6f",
+      "skillPath": "skills/engineering/retro/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/a7d038f6bf7f01b516408e95e2fb56e0b338fa6f/skills/engineering/retro",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "scaffold-exercises",
+      "source": "mattpocock/skills",
+      "commit": "697d4ce9742da558fd1ba6697c8e9775e2e302dd",
+      "skillPath": "skills/misc/scaffold-exercises/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/697d4ce9742da558fd1ba6697c8e9775e2e302dd/skills/misc/scaffold-exercises",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "source": "mattpocock/skills",
+      "commit": "59db609eb1e18aaf59b63284d0e52255aff0c63c",
+      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/59db609eb1e18aaf59b63284d0e52255aff0c63c/skills/engineering/setup-matt-pocock-skills",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "setup-pre-commit",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/misc/setup-pre-commit/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/misc/setup-pre-commit",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "setup-ts-deep-modules",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/in-progress/setup-ts-deep-modules/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/in-progress/setup-ts-deep-modules",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "tdd",
+      "source": "mattpocock/skills",
+      "commit": "3f599139104dfceabc7754eeb91319802f85e042",
+      "skillPath": "skills/engineering/tdd/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/3f599139104dfceabc7754eeb91319802f85e042/skills/engineering/tdd",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "teach",
+      "source": "mattpocock/skills",
+      "commit": "ad5400b930b297b0c0cb231ff1ffe42a7da666aa",
+      "skillPath": "skills/productivity/teach/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/ad5400b930b297b0c0cb231ff1ffe42a7da666aa/skills/productivity/teach",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "to-questionnaire",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/productivity/to-questionnaire/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/productivity/to-questionnaire",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "to-spec",
+      "source": "mattpocock/skills",
+      "commit": "5c89081d4bbeb3d039a42093653f90bb698d780e",
+      "skillPath": "skills/engineering/to-spec/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/5c89081d4bbeb3d039a42093653f90bb698d780e/skills/engineering/to-spec",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "to-tickets",
+      "source": "mattpocock/skills",
+      "commit": "9e2abf8611a345efbf779aacb171cff015bcdeb6",
+      "skillPath": "skills/engineering/to-tickets/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/9e2abf8611a345efbf779aacb171cff015bcdeb6/skills/engineering/to-tickets",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "triage",
+      "source": "mattpocock/skills",
+      "commit": "d80fa0f4ebe0c5714af0adf8670336065233ecc6",
+      "skillPath": "skills/engineering/triage/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/d80fa0f4ebe0c5714af0adf8670336065233ecc6/skills/engineering/triage",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "wait-what",
+      "source": "mattpocock/skills",
+      "commit": "d80fa0f4ebe0c5714af0adf8670336065233ecc6",
+      "skillPath": "skills/productivity/wait-what/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/d80fa0f4ebe0c5714af0adf8670336065233ecc6/skills/productivity/wait-what",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "wayfinder",
+      "source": "mattpocock/skills",
+      "commit": "8295b8e10d4cdb6cce772a56dda7b7c37075074d",
+      "skillPath": "skills/engineering/wayfinder/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/8295b8e10d4cdb6cce772a56dda7b7c37075074d/skills/engineering/wayfinder",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "wizard",
+      "source": "mattpocock/skills",
+      "commit": "49dd158d1076134a641b33efb035946536778336",
+      "skillPath": "skills/engineering/wizard/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/49dd158d1076134a641b33efb035946536778336/skills/engineering/wizard",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "writing-beats",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/in-progress/writing-beats/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/in-progress/writing-beats",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "writing-for-agents",
+      "source": "mattpocock/skills",
+      "commit": "321658273cb1d20b76026717d027d505790106d4",
+      "skillPath": "skills/productivity/writing-for-agents/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/321658273cb1d20b76026717d027d505790106d4/skills/productivity/writing-for-agents",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "writing-fragments",
+      "source": "mattpocock/skills",
+      "commit": "5c89081d4bbeb3d039a42093653f90bb698d780e",
+      "skillPath": "skills/in-progress/writing-fragments/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/5c89081d4bbeb3d039a42093653f90bb698d780e/skills/in-progress/writing-fragments",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    },
+    {
+      "name": "writing-shape",
+      "source": "mattpocock/skills",
+      "commit": "5c89081d4bbeb3d039a42093653f90bb698d780e",
+      "skillPath": "skills/in-progress/writing-shape/SKILL.md",
+      "installUrl": "https://github.com/mattpocock/skills/tree/5c89081d4bbeb3d039a42093653f90bb698d780e/skills/in-progress/writing-shape",
+      "agents": [
+        "claude-code",
+        "codex"
+      ]
+    }
+  ],
+  "custom": []
+}

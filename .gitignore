@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+.fleet/
+__pycache__/
+*.pyc
+/fleet-dry-run.*
+/dry.txt
+*.swp
+/machines.json
+/rollout.json
+/sources/
+/docs/instruction-review.md
+/skills.local.json
+/private-skills/
+/skills/user-voice/
+.env
+.env.*

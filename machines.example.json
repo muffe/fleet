@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "repository": "muffe/fleet",
+  "machines": [
+    {
+      "name": "server",
+      "environmentId": "replace-with-server-environment-id",
+      "checkout": "~/.config/fleet",
+      "deploymentMode": "git"
+    },
+    {
+      "name": "desktop",
+      "environmentId": "replace-with-desktop-environment-id",
+      "checkout": "~/.config/fleet",
+      "deploymentMode": "snapshot"
+    },
+    {
+      "name": "laptop",
+      "environmentId": "replace-with-laptop-environment-id",
+      "checkout": "~/.config/fleet",
+      "deploymentMode": "snapshot"
+    }
+  ]
+}
