@@ -1,6 +1,6 @@
 # Fleet
 
-Fleet is built around T3 Code: one thread coordinates shared agent instructions and skills across your linked computers. T3 Code provides access to each machine and runs concurrent workers for previews, reviewed updates, and verification, bringing their results back into the same thread.
+Fleet is built around [T3 Code](https://github.com/pingdotgg/t3code): one thread coordinates shared agent instructions and skills across your linked computers. T3 Code provides access to each machine and runs concurrent workers for previews, reviewed updates, and verification, bringing their results back into the same thread.
 
 Claude Code and Codex read one shared instruction file, while a pinned skill manifest records which upstream versions to install. Each machine keeps a local copy so the installed configuration works offline.
 
