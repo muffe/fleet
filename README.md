@@ -1,10 +1,12 @@
 # Fleet
 
-Fleet keeps the same global agent instructions and selected skills on multiple computers. Claude Code and Codex read one shared instruction file, while a pinned skill manifest records which upstream versions to install.
+Fleet is built around T3 Code: one thread coordinates shared agent instructions and skills across your linked computers. T3 Code provides access to each machine and runs concurrent workers for previews, reviewed updates, and verification, bringing their results back into the same thread.
+
+Claude Code and Codex read one shared instruction file, while a pinned skill manifest records which upstream versions to install. Each machine keeps a local copy so the installed configuration works offline.
 
 This is a personal configuration repository with a reusable installer. The checked-in instructions and skill selection reflect the owner's preferences. Review and adapt them before applying anything to your own machine.
 
-You can use the installer on a single computer. With T3 Code and linked environments, an agent can also preview or apply the same revision across your machines from one thread. There is no background sync service.
+T3 Code is the core of the multi-machine workflow. The Python installer is its per-machine engine and can also be run directly on a single computer. Syncs happen on request; there is no background sync service.
 
 ## How it works
 
@@ -24,7 +26,7 @@ The shared files are:
 | [`instructions.md`](instructions.md) | Common global instructions for Claude Code and Codex. |
 | [`skills.json`](skills.json) | Selected skills, upstream commit pins, target agents, and package CLI version. |
 | [`skills-baseline.json`](skills-baseline.json) | Expected upstream file hashes for offline comparisons and post-install verification. |
-| [`machines.example.json`](machines.example.json) | Template for optional orchestration through T3 Code. |
+| [`machines.example.json`](machines.example.json) | Template for the machines coordinated through T3 Code. |
 | [`scripts/install.py`](scripts/install.py) | Per-machine dry run and installer. |
 | [`scripts/fleet_report.py`](scripts/fleet_report.py) | Combines collected machine results into local HTML and text reports. |
 
